@@ -24,10 +24,15 @@ In this case it did, its quite aparent that the higher the grade the group of ho
 ```
 Is there a popular mont where sales took place?
 ```
-![Image](images/download.png?raw=true)
+![Image](images/download-1.png?raw=true)
 
-In this case 
+In this case it becomes aparent that April and May show the highest values for sales.
 
 
 ## Conclusions
 
+When answering those questions it became aparent that a lot of relational data could be used to create the model. By using polinomials, dummy variables and relational features such as, Month and Sale Numbers or Grade and Sale Price, our model could be improved. Aside than using various features selections, I came to the conclusion that a simple Linear Regression model gave me the best score out of all that we're using. 
+
+![Image](images/scores.png?raw=true)
+
+In conclusion, I am able to state that my Linear Regression model is able to have a Residual Mean of Squares low enoguh to do the best acurate predictions. 
